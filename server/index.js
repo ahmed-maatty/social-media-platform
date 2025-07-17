@@ -22,7 +22,7 @@ app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({policy:"cross-origin"}));
 app.use(morgan("common"));
 app.use(cors({
-    origin : ["http://localhost:3000"],
+    origin : ["https://social-media-platform-smoky.vercel.app"],
     credentials : true
 }));
 
