@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const Domain = axios.create({
-    baseURL:"http://localhost:5000"
+    baseURL:"https://social-media-platform-rho.vercel.app"
 })
 
 export default Domain ;
